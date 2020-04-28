@@ -1,0 +1,47 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+}
+html {
+    background-color: #123456;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    background-color: #3291F0;
+    margin: auto;
+    align-items: flex-start;
+    border-style: solid;
+}
+button {
+    margin: auto;
+    height: 30px;
+    width: fit-content;
+    background-color: #2263A3;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #395570;
+    outline: none;
+    color: rgb(255, 162, 0);
+    font-size: large;
+    font-weight: 900;
+}
+button:hover {
+    background-color: rgba(34, 99, 163, 0.644);
+}
+.content {
+    background-color: lightgray;
+    width: 20px;
+    height: 20px;
+}
+h1 {
+    margin: auto;
+    color: rgb(255, 162, 0);
+}
